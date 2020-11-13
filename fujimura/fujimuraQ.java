@@ -37,6 +37,7 @@ public class fujimuraQ{
 				}
 			}
 					System.out.printf("%d位:%d点:%sさん%n",i+1,hit[i],p[i]);
+					//pullreq出来なかったので文字追加
 		}
 	}
 }
