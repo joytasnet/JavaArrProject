@@ -4,7 +4,8 @@ public class Q1112{
 		
 		//配列を生成
 		String ans[] = new String[5];
-		
+	
+		System.out.println("好きな事を5つ入力してください");
 		//配列に格納
 		for(int i=0;i<5;i++){
 			System.out.print(i + 1 + "つ目＞");
@@ -15,9 +16,9 @@ public class Q1112{
 		//シャッフル
 		for (int i = 0; i < ans.length;i++) {
     	int rnd = new java.util.Random().nextInt(ans.length);
-    	String temp = ans[ i ];
-    	ans[ i ] = ans[ rnd ];
-    	ans[ rnd ] = temp;
+    	String temp = ans[i];
+    	ans[i] = ans[rnd];
+    	ans[rnd] = temp;
 		}
     
 		//出力
